@@ -6,12 +6,12 @@ type rectangle struct {
 	width, height int
 }
 
-func (r *rectangle) area() int {
-	return r.width * r.height
+func (this *rectangle) area() int {
+	return this.width * this.height
 }
 
-func (r rectangle) perimeter() int {
-	return 2*r.width + 2*r.height
+func (this rectangle) perimeter() int {
+	return 2*this.width + 2*this.height
 }
 
 func main() {
